@@ -1,0 +1,95 @@
+Code Book
+
+Raw data was collected by University of California Irvine as part of their Machine Learning Repository.  Data Set Information from UCI:
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+
+For more information please visit:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+FEATURES
+
+"Subjects":  Subjects that participated in the test.  Ranges from 1 to 30.
+"Activities":  Six different types of activities being measured.
+"tBodyAcc.mean...X":  Average reading collected for this user for this feature.
+"tBodyAcc.mean...Y":  Average reading collected for this user for this feature.
+"tBodyAcc.mean...Z":  Average reading collected for this user for this feature.
+"tGravityAcc.mean...X":  Average reading collected for this user for this feature.
+"tGravityAcc.mean...Y":  Average reading collected for this user for this feature.
+"tGravityAcc.mean...Z":  Average reading collected for this user for this feature.
+"tBodyAccJerk.mean...X":  Average reading collected for this user for this feature.
+"tBodyAccJerk.mean...Y":  Average reading collected for this user for this feature.
+"tBodyAccJerk.mean...Z":  Average reading collected for this user for this feature.
+"tBodyGyro.mean...X":  Average reading collected for this user for this feature.
+"tBodyGyro.mean...Y":  Average reading collected for this user for this feature.
+"tBodyGyro.mean...Z":  Average reading collected for this user for this feature.
+"tBodyGyroJerk.mean...X":  Average reading collected for this user for this feature.
+"tBodyGyroJerk.mean...Y":  Average reading collected for this user for this feature.
+"tBodyGyroJerk.mean...Z":  Average reading collected for this user for this feature.
+"tBodyAccMag.mean..":  Average reading collected for this user for this feature.
+"tGravityAccMag.mean..":  Average reading collected for this user for this feature.
+"tBodyAccJerkMag.mean..":  Average reading collected for this user for this feature.
+"tBodyGyroMag.mean..":  Average reading collected for this user for this feature.
+"tBodyGyroJerkMag.mean..":  Average reading collected for this user for this feature.
+"fBodyAcc.mean...X":  Average reading collected for this user for this feature.
+"fBodyAcc.mean...Y":  Average reading collected for this user for this feature.
+"fBodyAcc.mean...Z":  Average reading collected for this user for this feature.
+"fBodyAcc.meanFreq...X":  Average reading collected for this user for this feature.
+"fBodyAcc.meanFreq...Y":  Average reading collected for this user for this feature.
+"fBodyAcc.meanFreq...Z":  Average reading collected for this user for this feature.
+"fBodyAccJerk.mean...X":  Average reading collected for this user for this feature.
+"fBodyAccJerk.mean...Y":  Average reading collected for this user for this feature.
+"fBodyAccJerk.mean...Z":  Average reading collected for this user for this feature.
+"fBodyAccJerk.meanFreq...X":  Average reading collected for this user for this feature.
+"fBodyAccJerk.meanFreq...Y":  Average reading collected for this user for this feature.
+"fBodyAccJerk.meanFreq...Z":  Average reading collected for this user for this feature.
+"fBodyGyro.mean...X":  Average reading collected for this user for this feature.
+"fBodyGyro.mean...Y":  Average reading collected for this user for this feature.
+"fBodyGyro.mean...Z":  Average reading collected for this user for this feature.
+"fBodyGyro.meanFreq...X":  Average reading collected for this user for this feature.
+"fBodyGyro.meanFreq...Y":  Average reading collected for this user for this feature.
+"fBodyGyro.meanFreq...Z":  Average reading collected for this user for this feature.
+"fBodyAccMag.mean..":  Average reading collected for this user for this feature.
+"fBodyAccMag.meanFreq..":  Average reading collected for this user for this feature.
+"fBodyBodyAccJerkMag.mean..":  Average reading collected for this user for this feature.
+"fBodyBodyAccJerkMag.meanFreq..":  Average reading collected for this user for this feature.
+"fBodyBodyGyroMag.mean..":  Average reading collected for this user for this feature.
+"fBodyBodyGyroMag.meanFreq..":  Average reading collected for this user for this feature.
+"fBodyBodyGyroJerkMag.mean..":  Average reading collected for this user for this feature.
+"fBodyBodyGyroJerkMag.meanFreq..":  Average reading collected for this user for this feature.
+"tBodyAcc.std...X":  Average reading collected for this user for this feature.
+"tBodyAcc.std...Y":  Average reading collected for this user for this feature.
+"tBodyAcc.std...Z":  Average reading collected for this user for this feature.
+"tGravityAcc.std...X":  Average reading collected for this user for this feature.
+"tGravityAcc.std...Y":  Average reading collected for this user for this feature.
+"tGravityAcc.std...Z":  Average reading collected for this user for this feature.
+"tBodyAccJerk.std...X":  Average reading collected for this user for this feature.
+"tBodyAccJerk.std...Y":  Average reading collected for this user for this feature.
+"tBodyAccJerk.std...Z":  Average reading collected for this user for this feature.
+"tBodyGyro.std...X":  Average reading collected for this user for this feature.
+"tBodyGyro.std...Y":  Average reading collected for this user for this feature.
+"tBodyGyro.std...Z":  Average reading collected for this user for this feature.
+"tBodyGyroJerk.std...X":  Average reading collected for this user for this feature.
+"tBodyGyroJerk.std...Y":  Average reading collected for this user for this feature.
+"tBodyGyroJerk.std...Z":  Average reading collected for this user for this feature.
+"tBodyAccMag.std..":  Average reading collected for this user for this feature.
+"tGravityAccMag.std..":  Average reading collected for this user for this feature.
+"tBodyAccJerkMag.std..":  Average reading collected for this user for this feature.
+"tBodyGyroMag.std..":  Average reading collected for this user for this feature.
+"tBodyGyroJerkMag.std..":  Average reading collected for this user for this feature.
+"fBodyAcc.std...X":  Average reading collected for this user for this feature.
+"fBodyAcc.std...Y":  Average reading collected for this user for this feature.
+"fBodyAcc.std...Z":  Average reading collected for this user for this feature.
+"fBodyAccJerk.std...X":  Average reading collected for this user for this feature.
+"fBodyAccJerk.std...Y":  Average reading collected for this user for this feature.
+"fBodyAccJerk.std...Z":  Average reading collected for this user for this feature.
+"fBodyGyro.std...X":  Average reading collected for this user for this feature.
+"fBodyGyro.std...Y":  Average reading collected for this user for this feature.
+"fBodyGyro.std...Z":  Average reading collected for this user for this feature.
+"fBodyAccMag.std..":  Average reading collected for this user for this feature.
+"fBodyBodyAccJerkMag.std..":  Average reading collected for this user for this feature.
+"fBodyBodyGyroMag.std..":  Average reading collected for this user for this feature.
+"fBodyBodyGyroJerkMag.std.."  Average reading collected for this user for this feature.
